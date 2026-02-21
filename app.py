@@ -214,20 +214,21 @@ def screen_drilldown() -> None:
     sub = df[df["commodity"] == commodity].copy()
     sub = sub.sort_values("date")
 
-    latest = sub.iloc[-1]
-    comp = float(latest["composite_risk_score"])
-    sev = severity_from_composite(comp)
-    conf = float(latest["confidence"])
-    alerts = get_alerts()
-    hit = alerts[alerts["commodity"] == commodity]
-    trigger_str = hit.iloc[0]["trigger_reason"] if not hit.empty else "No active alert trigger (informational view)."
-    primary_driver = str(latest["main_driver"])
+latest = sub.iloc[-1]
+comp = float(latest["composite_risk_score"])
+sev = severity_from_composite(comp)
+conf = float(latest["confidence"])
+alerts = get_alerts()
+hit = alerts[alerts["commodity"] == commodity]
+trigger_str = hit.iloc[0]["trigger_reason"] if not hit.empty else "No active alert trigger (informational view)."
+primary_driver = str(latest["main_driver"])
 
-    body = f"""
-    <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
-      <div style="font-size:18px; font-weight:900;">{commodity}</div>
-      <div>{severity_badge(sev)}</div>
-      <div style="opacity:.85;">Confidence: <b>{conf:.2f}</b></div>
+body = f"""
+<div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+  <div style="font-size:18px; font-weight:900;">{commodity}</div>
+  <div>{severity_badge(sev)}</div>
+  <div style="opacity:.85;">Confidence: <b>{conf:.2f}</b></div>
+"""
       <div style="opacity:.85;">Trigger: <b>{trigger_str}</b></div>
     </div>
     <div style="margin-top:10px;">Primary Risk Driver: {driver_badge(primary_driver)}</div>
