@@ -1,0 +1,51 @@
+commodity,market,date,price,chg_7d,chg_30d,supply_risk_score,logistics_risk_score,climate_risk_score,geopolitical_risk_score,composite_risk_score,main_driver,confidence
+Wheat,Qatar Spot (Doha),2026-01-05,340,2,4,62,58,41,55,55.35,Supply,0.86
+Wheat,Qatar Spot (Doha),2026-01-12,348,4,6,64,60,42,56,56.55,Supply,0.87
+Wheat,Qatar Spot (Doha),2026-01-19,360,7,9,70,66,45,60,61.45,Supply,0.88
+Wheat,Qatar Spot (Doha),2026-01-26,385,12,15,78,72,48,66,67.90,Supply,0.90
+Wheat,Qatar Spot (Doha),2026-02-02,402,9,18,82,74,50,68,70.80,Supply,0.91
+Wheat,GCC Import Proxy,2026-01-05,332,1,3,60,56,40,54,53.95,Supply,0.84
+Wheat,GCC Import Proxy,2026-01-12,338,3,5,62,58,41,55,55.15,Supply,0.85
+Wheat,GCC Import Proxy,2026-01-19,350,6,8,68,64,44,59,60.05,Supply,0.86
+Wheat,GCC Import Proxy,2026-01-26,372,11,13,76,70,47,64,66.35,Supply,0.88
+Wheat,GCC Import Proxy,2026-02-02,390,8,16,80,72,49,66,69.25,Supply,0.89
+Rice,Qatar Retail Index,2026-01-05,5.1,1,2,48,52,38,44,46.20,Logistics,0.82
+Rice,Qatar Retail Index,2026-01-12,5.2,2,3,50,54,38,45,47.20,Logistics,0.83
+Rice,Qatar Retail Index,2026-01-19,5.4,4,5,54,58,39,46,49.25,Logistics,0.84
+Rice,Qatar Retail Index,2026-01-26,5.8,9,9,60,66,40,52,54.10,Logistics,0.86
+Rice,Qatar Retail Index,2026-02-02,6.0,11,12,64,72,41,56,57.85,Logistics,0.87
+Rice,India Supplier (FOB),2026-01-05,475,0,1,46,50,37,42,44.35,Logistics,0.80
+Rice,India Supplier (FOB),2026-01-12,482,1,2,48,52,37,43,45.35,Logistics,0.81
+Rice,India Supplier (FOB),2026-01-19,495,3,4,52,56,38,44,47.40,Logistics,0.82
+Rice,India Supplier (FOB),2026-01-26,520,8,8,58,64,39,50,52.25,Logistics,0.84
+Rice,India Supplier (FOB),2026-02-02,540,10,11,62,70,40,54,56.00,Logistics,0.85
+Onions,Qatar Wholesale,2026-01-05,2.6,2,5,55,50,46,48,50.65,Supply,0.81
+Onions,Qatar Wholesale,2026-01-12,2.7,3,6,58,52,47,50,52.15,Supply,0.82
+Onions,Qatar Wholesale,2026-01-19,2.9,6,9,62,55,49,54,55.05,Supply,0.83
+Onions,Qatar Wholesale,2026-01-26,3.3,12,14,70,60,52,58,60.20,Supply,0.85
+Onions,Qatar Wholesale,2026-02-02,3.5,8,16,72,62,54,58,61.10,Supply,0.86
+Onions,GCC Cross-Border,2026-01-05,2.4,1,4,52,48,45,46,48.65,Supply,0.80
+Onions,GCC Cross-Border,2026-01-12,2.5,2,5,55,50,46,48,50.65,Supply,0.81
+Onions,GCC Cross-Border,2026-01-19,2.7,5,8,60,54,48,52,54.05,Supply,0.82
+Onions,GCC Cross-Border,2026-01-26,3.1,11,13,68,58,51,56,58.95,Supply,0.84
+Onions,GCC Cross-Border,2026-02-02,3.3,7,15,70,60,52,56,59.85,Supply,0.85
+Tomatoes,Qatar Wholesale,2026-01-05,3.2,1,3,50,46,58,44,49.60,Climate,0.82
+Tomatoes,Qatar Wholesale,2026-01-12,3.3,2,4,52,48,60,45,51.10,Climate,0.83
+Tomatoes,Qatar Wholesale,2026-01-19,3.6,5,7,56,52,64,48,54.30,Climate,0.84
+Tomatoes,Qatar Wholesale,2026-01-26,4.1,10,12,62,58,70,52,59.60,Climate,0.86
+Tomatoes,Qatar Wholesale,2026-02-02,4.4,12,15,66,60,74,55,62.55,Climate,0.87
+Tomatoes,Regional Greenhouse Proxy,2026-01-05,3.0,0,2,48,44,56,42,47.90,Climate,0.80
+Tomatoes,Regional Greenhouse Proxy,2026-01-12,3.1,1,3,50,46,58,43,49.40,Climate,0.81
+Tomatoes,Regional Greenhouse Proxy,2026-01-19,3.4,4,6,54,50,62,46,52.60,Climate,0.82
+Tomatoes,Regional Greenhouse Proxy,2026-01-26,3.9,9,11,60,56,68,50,57.90,Climate,0.84
+Tomatoes,Regional Greenhouse Proxy,2026-02-02,4.2,11,14,64,58,72,53,60.85,Climate,0.85
+Frozen Protein,Qatar Import Basket,2026-01-05,4.6,2,4,52,54,40,58,51.80,Geopolitical,0.88
+Frozen Protein,Qatar Import Basket,2026-01-12,4.7,3,5,54,56,40,60,53.30,Geopolitical,0.89
+Frozen Protein,Qatar Import Basket,2026-01-19,4.9,6,8,58,60,41,64,56.45,Geopolitical,0.90
+Frozen Protein,Qatar Import Basket,2026-01-26,5.3,10,12,64,66,42,70,60.55,Geopolitical,0.91
+Frozen Protein,Qatar Import Basket,2026-02-02,5.6,12,15,68,70,43,74,63.70,Geopolitical,0.92
+Frozen Protein,Brazil Supplier (FOB),2026-01-05,3.9,1,3,50,52,39,56,50.55,Geopolitical,0.86
+Frozen Protein,Brazil Supplier (FOB),2026-01-12,4.0,2,4,52,54,39,58,52.05,Geopolitical,0.87
+Frozen Protein,Brazil Supplier (FOB),2026-01-19,4.2,5,7,56,58,40,62,55.20,Geopolitical,0.88
+Frozen Protein,Brazil Supplier (FOB),2026-01-26,4.5,9,11,62,64,41,68,59.30,Geopolitical,0.89
+Frozen Protein,Brazil Supplier (FOB),2026-02-02,4.8,10,13,66,68,42,72,62.45,Geopolitical,0.90

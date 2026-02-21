@@ -1,0 +1,4 @@
+title,owner,due_date,status,notes,expected_risk_impact,commodity
+Hamad Port monitoring,Logistics Ops,2026-03-05,Open,Increase monitoring frequency for inbound containers during Red Sea volatility,Reduce logistics risk and improve response time,All
+Supplier diversification,Procurement,2026-03-15,In Progress,Identify alternative suppliers for wheat and rice within GCC+ and Asia,Reduce supply concentration and exposure,Wheat
+Strategic reserve review,Food Security Unit,2026-03-10,Open,Review reserve coverage assumptions and replenishment triggers,Improve resilience for high-risk staples,Wheat
